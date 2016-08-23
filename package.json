@@ -1,0 +1,19 @@
+{
+  "name": "noflo-alasql",
+  "version": "0.0.1",
+  "description": "AlaSQL component for NoFlo",
+  "version": "0.0.1",
+  "keywords": [
+    "noflo",
+    "alasql",
+    "xlsx",
+    "database"
+  ],
+  "author": "Andrey Gershun <agershun@gmail.com>",
+  "dependencies": {
+    "alasql": "^0.3.*"
+  },
+  "components":{
+      "alasql": "components/alasql.js"  	
+  }
+}
