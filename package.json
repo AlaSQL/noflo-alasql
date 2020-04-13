@@ -11,7 +11,7 @@
   ],
   "author": "Andrey Gershun <agershun@gmail.com>",
   "dependencies": {
-    "alasql": "^0.3.*"
+    "alasql": "^0.5.8"
   },
   "components":{
       "alasql": "components/alasql.js"  	
