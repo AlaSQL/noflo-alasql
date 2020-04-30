@@ -2,7 +2,6 @@
   "name": "noflo-alasql",
   "version": "0.0.1",
   "description": "AlaSQL component for NoFlo",
-  "version": "0.0.1",
   "keywords": [
     "noflo",
     "alasql",
@@ -11,9 +10,15 @@
   ],
   "author": "Andrey Gershun <agershun@gmail.com>",
   "dependencies": {
-    "alasql": "^0.5.8"
+    "alasql": "^0.5.8",
+    "snyk": "^1.316.1"
   },
-  "components":{
-      "alasql": "components/alasql.js"  	
-  }
+  "components": {
+    "alasql": "components/alasql.js"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
