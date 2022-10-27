@@ -10,7 +10,7 @@
   ],
   "author": "Andrey Gershun <agershun@gmail.com>",
   "dependencies": {
-    "alasql": "2.1.4",
+    "alasql": "2.1.6",
     "snyk": "^1.316.1"
   },
   "components": {
